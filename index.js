@@ -14,9 +14,9 @@ const createDate = (dates, posisi) => {
     arrBaru.push(Math.round(Date.parse(dates[i]) / 1000));
   }
   if (posisi == null) {
-    return arrBaru.sort().join("-").toString;
+    return arrBaru.sort().join("-").toString();
   } else {
-    return arrBaru[posisi].toString;
+    return arrBaru[posisi].toString();
   }
 };
 // ! JANGAN DIMODIFIKASI
